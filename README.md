@@ -1,6 +1,10 @@
-# Ascend operator sample in minimalist style with torch interface
+# Ascend operator sample with torch interface in minimalist style
 
 极简风格昇腾算子样例 + PyTorch调用
+
+Advantages:
+- Absolutely minimum and hackable software structure -- no complex cmake/bash/json wrapper as in [official AscendC project structure](https://www.hiascend.com/document/detail/zh/canncommercial/80RC3/developmentguide/opdevg/Ascendcopdevg/atlas_ascendc_10_0006.html)
+- Easy-to-reason concurrent programming style using [binary semaphore APIs](https://www.hiascend.com/document/detail/zh/CANNCommunityEdition/800alpha003/apiref/ascendcopapi/atlasascendc_api_07_0269.html)
 
 ## Usage
 
